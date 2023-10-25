@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+} 
+
+body{
+    font-family: sans-serif;
+    
+}
+  
+
+/* Navigation Start*/
+
+.navBar {
+    position: fixed;
+    padding: 5px;
+    background-color: #272727;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.navBar nav {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+.navBar nav ul {
+    display: flex;
+   }
+
+.navBar nav li {
+    list-style: none;
+    margin: 0 15px;
+   }
+   
+.navBar nav li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #657065;
+   }
+
+.navBar nav li a:hover {
+    padding: 15px;
+    background: #FFFFFF;
+    color:black;
+   }
+
+/* Navigation End*/
+
+
+/*Main Start*/
+
+.mainBody {
+
+padding-top: 130px;
+
+}
+
+/*Main End*/
+
+
+/* Hero Start */
+
+.heroSection {
+    text-align: center;
+    background-image: url("Images/heroImage.png");
+    height: 450px;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heroSection h1 {
+    font-weight: 400;
+    font-size: 48px;
+    padding-top: 110px;
+    margin-bottom: 30px;
+    
+}
+
+.heroSection h2 {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 28px;
+    margin-bottom:65px;
+   
+}
+
+.heroSection button {
+    background-color: #019C00;
+    border: none;
+    border-radius: 6px;
+    padding: 25px;
+    
+}
+
+.heroSection a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #FFFFFF;  
+}
+
+.heroSection button a:hover {
+   color: black;
+   }
+
+/* Hero End */
+
+
+/* Services Start */
+
+.serviceSection {
+    padding-top: 80px;
+    position:relative;
+    margin: 0px 5px 0 5px;
+    text-align: center;
+}
+
+.serviceSection h1 {
+    font-size: 48px;
+    color: #019C00;
+}
+
+.serviceSection h5 {
+    font-size: 24px;
+    font-style:italic;
+    font-weight: lighter;
+    
+}
+
+.serviceSection h3 {
+    font-size: 24px;
+    text-align: left;
+    margin: 25px 65px;
+    color: #019C00;
+}
+
+.serviceSection p {
+    font-size: 15px;
+    text-align: left;
+    margin: 25px 65px;
+    
+}
+
+.serviceSection .row {
+    margin-top:5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.serviceSection .serviceColumn {
+    flex-basis: 20%;
+    border: 1px outset ;
+    margin: 10px 0;
+    position: relative;
+}
+
+/* Services End */
+
+
+/* Pricing Start */
+
+.pricingSection {
+    padding-top: 80px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pricingSection .row{
+    margin-top:15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pricingSection h1 {
+    font-size: 48px;
+    color: #019C00;
+}
+
+.pricingSection h5 {
+    font-size: 24px;
+    font-style:italic;
+    font-weight: lighter;   
+}
+
+.pricingSection h3 {
+    font-size: 24px;
+    color: #019C00; 
+    text-align: left; 
+    margin: 25px 0 25px 20px;
+}
+
+.pricingSection li {
+    font-size: 24px;
+    text-align: left;
+    margin: 25px 0 25px 40px;    
+}
+
+.pricingSection .pricingColumn {
+    margin: 10px 0;
+    padding: 0 0 25px 0;
+    position: relative;
+}
+
+/* Pricing End */
+
+
+/* Quote start */
+
+.quoteSection {
+    margin: 50px 90px ;
+    text-align: center;
+    border: 1px outset;
+    border-radius: 48px;
+    padding: 90px 0 70px 0;
+    background-color:#94c994;
+}
+
+.quoteSection h1 {
+    font-size: 48px;
+    color: #019C00;
+}
+
+.quoteSection .row{
+    margin-top:5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.quoteSection .quoteColumn {
+    margin: 40px 0 40px 35px;
+    position: relative;
+}
+
+input {
+    width: 509.64px;
+    height: 58.13px;
+    top: 291.1px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+select {
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+textarea {
+    width: 509.64px;
+    height: 100px;
+    top: 291.1px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 15px 0 0 20px;
+}
+
+input[type=submit], input[type=reset] {
+    width: 136.65px;
+    height: 58.94px;
+    background-color: #019C00;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+/* Quote End */
+
+
+/* About us start */
+
+.aboutSection {
+    padding-top: 80px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.aboutSection h1 {
+    font-size: 48px;
+    color: #019C00;
+}
+
+.aboutSection h6 {
+    font-size: 24px;
+    text-align: left;
+    margin: 25px 0;
+    color: #019C00;
+}
+.aboutSection h3 {
+    font-size: 24px;
+    text-align: left;
+    margin: 25px 65px;
+    color: #019C00;
+}
+
+.aboutSection h5 {
+    font-size: 15px;
+    font-style:italic;
+    font-weight: lighter;   
+    text-align: left;
+    margin: 5px 0;
+}
+
+.aboutSection p {
+    font-size: 15px;
+    text-align: left;
+    margin: 25px 65px;
+}
+
+.aboutSection .row {
+    margin-top:5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutSection .aboutColumn {
+    flex-basis: 40%;
+    border: 1px outset ;
+    margin: 5px 0;
+    position: relative;
+}
+
+.aboutSection .workColumn {
+    margin: 10px 0;
+    padding: 0 0 5px 0;
+    position: relative;
+}
+
+/* About us End */
+
+
+/* Contact us start */
+
+.contactSection {
+    padding-top: 80px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contactSection h1 {
+    font-size: 48px;
+    color: #019C00;
+}
+
+.contactSection .row {
+    margin-top:5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contactSection .contactColumn {
+    text-align: left;
+    margin: 30px 0 25px 0;
+    position: relative;
+    display: flex;
+}
+
+.contactSection .addressColumn {
+    margin: 5px 0 50px 0;
+    position: relative;
+}
+
+.contactSection p {
+    padding-top: 15px;
+    font-size: 24px;
+}
+
+/* Contact us End */
+
+
+/* Footer start */
+
+.footer {
+    margin-top: 10%;
+    width: 100%;
+    height: 256px;
+    background-color: #272727;
+    color: #FFFFFF;
+}
+
+.footer ul {
+    display: flex;
+   }
+
+.footer li {
+    list-style: none;
+    margin: 0 15px;
+   }
+   
+.footer li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #657065;
+   }
+
+.footer li a:hover {
+    padding: 15px;
+    background: #FFFFFF;
+    color:black;
+   }
+
+.footer p {
+    text-align: center;
+    font-size: 15px;
+}  
+
+.footer .row {
+    padding-top:100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer End */
+
