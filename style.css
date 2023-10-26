@@ -128,10 +128,9 @@ padding-top: 130px;
 }
 
 .serviceSection h5 {
-    font-size: 24px;
+    font-size: 14px;
     font-style:italic;
     font-weight: lighter;
-    
 }
 
 .serviceSection h3 {
@@ -144,20 +143,23 @@ padding-top: 130px;
 .serviceSection p {
     font-size: 15px;
     text-align: left;
-    margin: 25px 65px;
-    
+    margin: 25px 65px; 
+}
+
+.serviceSection img {
+    padding-top: 15px;
+    width: 80%; 
 }
 
 .serviceSection .row {
     margin-top:5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .serviceSection .serviceColumn {
-    flex-basis: 20%;
-    border: 1px outset ;
-    margin: 10px 0;
+    border: 10px solid #272727;
+    margin: 0px 40px;
     position: relative;
 }
 
@@ -173,9 +175,9 @@ padding-top: 130px;
 }
 
 .pricingSection .row{
-    margin-top:15px;
+    margin-top:75px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .pricingSection h1 {
@@ -184,7 +186,7 @@ padding-top: 130px;
 }
 
 .pricingSection h5 {
-    font-size: 24px;
+    font-size: 14px;
     font-style:italic;
     font-weight: lighter;   
 }
@@ -202,9 +204,12 @@ padding-top: 130px;
     margin: 25px 0 25px 40px;    
 }
 
+.pricingSection img {
+    width: 80%;   
+}
+
 .pricingSection .pricingColumn {
     margin: 10px 0;
-    padding: 0 0 25px 0;
     position: relative;
 }
 
@@ -216,10 +221,8 @@ padding-top: 130px;
 .quoteSection {
     margin: 50px 90px ;
     text-align: center;
-    border: 1px outset;
-    border-radius: 48px;
-    padding: 90px 0 70px 0;
-    background-color:#94c994;
+    padding-top: 90px;
+    
 }
 
 .quoteSection h1 {
@@ -231,10 +234,14 @@ padding-top: 130px;
     margin-top:5px;
     display: flex;
     justify-content: space-around;
+    border: 10px outset;
+    border-radius: 48px;
+    background-color:#94c994;
+    padding: 40px;
 }
 
 .quoteSection .quoteColumn {
-    margin: 40px 0 40px 35px;
+    margin: 40px 0 0px 35px;
     position: relative;
 }
 
@@ -276,9 +283,10 @@ input[type=submit], input[type=reset] {
     color: white;
     padding: 16px 32px;
     text-decoration: none;
-    margin: 4px 2px;
+    margin: 20px;
     cursor: pointer;
   }
+
 
 /* Quote End */
 
@@ -286,8 +294,8 @@ input[type=submit], input[type=reset] {
 /* About us start */
 
 .aboutSection {
-    padding-top: 80px;
-    margin-top: 10px;
+    padding-top: 100px;
+    display: block;
     text-align: center;
 }
 
@@ -298,14 +306,11 @@ input[type=submit], input[type=reset] {
 
 .aboutSection h6 {
     font-size: 24px;
-    text-align: left;
-    margin: 25px 0;
     color: #019C00;
+    margin-top:75px;
 }
 .aboutSection h3 {
     font-size: 24px;
-    text-align: left;
-    margin: 25px 65px;
     color: #019C00;
 }
 
@@ -313,34 +318,13 @@ input[type=submit], input[type=reset] {
     font-size: 15px;
     font-style:italic;
     font-weight: lighter;   
-    text-align: left;
-    margin: 5px 0;
 }
 
 .aboutSection p {
     font-size: 15px;
-    text-align: left;
-    margin: 25px 65px;
+    margin: 0px 90px;
 }
 
-.aboutSection .row {
-    margin-top:5px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.aboutSection .aboutColumn {
-    flex-basis: 40%;
-    border: 1px outset ;
-    margin: 5px 0;
-    position: relative;
-}
-
-.aboutSection .workColumn {
-    margin: 10px 0;
-    padding: 0 0 5px 0;
-    position: relative;
-}
 
 /* About us End */
 
@@ -366,9 +350,17 @@ input[type=submit], input[type=reset] {
 
 .contactSection .contactColumn {
     text-align: left;
-    margin: 30px 0 25px 0;
+    margin: 45px 0 25px 0;
     position: relative;
     display: flex;
+}
+
+.contactSection .contactColumn img {
+    width: 5%;
+}
+
+.contactSection .contactColumn p {
+    font-size: 15px;
 }
 
 .contactSection .addressColumn {
@@ -376,9 +368,9 @@ input[type=submit], input[type=reset] {
     position: relative;
 }
 
-.contactSection p {
-    padding-top: 15px;
-    font-size: 24px;
+.contactSection .addressColumn p {
+    padding-top: 10px;
+    font-size: 16px;
 }
 
 /* Contact us End */
@@ -387,9 +379,8 @@ input[type=submit], input[type=reset] {
 /* Footer start */
 
 .footer {
-    margin-top: 10%;
     width: 100%;
-    height: 256px;
+    height: 160px;
     background-color: #272727;
     color: #FFFFFF;
 }
@@ -410,7 +401,7 @@ input[type=submit], input[type=reset] {
    }
 
 .footer li a:hover {
-    padding: 15px;
+    padding: 5px;
     background: #FFFFFF;
     color:black;
    }
@@ -421,10 +412,116 @@ input[type=submit], input[type=reset] {
 }  
 
 .footer .row {
-    padding-top:100px;
+    padding-top:55px;
     display: flex;
     justify-content: space-between;
 }
 
 /* Footer End */
 
+
+
+/* Media Query start */
+
+/* Navigation */
+@media (max-width: 600px) {
+.navBar {
+    position: fixed;
+    background-color: #272727;
+
+}
+
+.navBar nav {
+    display: block;
+   }
+
+ .navBar nav li a:hover {
+    padding: 5px;
+   }
+
+}
+
+/* Body */
+@media (max-width: 600px) {
+    .heroSection h1 {
+        padding-top: 10px;  
+    }
+
+    .serviceSection {
+        padding-top: 100px;
+       
+    }
+
+    .serviceSection img {
+        padding-top: 10px;
+        width: 70%;
+        
+    }
+
+    .serviceSection .row {
+        display:block;
+    }
+
+    .serviceSection .serviceColumn {
+        border: 3px outset;
+        margin: 60px 50px;
+    }
+    
+    .pricingSection {
+        padding-top: 100px;
+        
+    }
+    
+    .pricingSection .row{
+        margin-top:15px;
+        display: block;
+        
+    }
+
+    .pricingSection img{
+        display: none;
+    }
+    
+    .quoteSection {
+        margin: 0px 25px ; 
+    }
+
+    .quoteSection .row{
+        display: block;  
+    }
+
+    .quoteSection .quoteColumn {
+        margin-right:35px ;
+    }
+    
+    input {
+        width: 250px;   
+    }
+    
+    textarea {
+        width: 250px;  
+    }
+    
+    .workSection {
+        display:none;
+    }
+
+    .contactSection {
+        padding-top: 100px;
+    }
+
+    .contactSection .row {
+        display: block;   
+    }
+
+    .contactSection .addressColumn {
+        padding-left: 40px;
+    }
+
+    .contactSection .addressColumn p{
+        padding-right: 30px;
+    }
+
+    
+    
+}
