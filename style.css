@@ -246,7 +246,7 @@ padding-top: 130px;
 }
 
 input {
-    width: 509.64px;
+    width: 409.64px;
     height: 58.13px;
     top: 291.1px;
     outline: none;
@@ -265,7 +265,7 @@ select {
 }
 
 textarea {
-    width: 509.64px;
+    width: 259.64px;
     height: 100px;
     top: 291.1px;
     outline: none;
@@ -442,7 +442,7 @@ input[type=submit], input[type=reset] {
 }
 
 /* Body */
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .heroSection h1 {
         padding-top: 10px;  
     }
@@ -521,7 +521,7 @@ input[type=submit], input[type=reset] {
     .contactSection .addressColumn p{
         padding-right: 30px;
     }
-
-    
     
 }
+
+
