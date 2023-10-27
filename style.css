@@ -391,12 +391,12 @@ input[type=submit], input[type=reset] {
 
 .footer li {
     list-style: none;
-    margin: 0 15px;
+    margin: 0 10px;
    }
    
 .footer li a {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 10px;
     color: #657065;
    }
 
