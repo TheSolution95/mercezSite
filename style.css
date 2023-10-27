@@ -491,17 +491,17 @@ input[type=submit], input[type=reset] {
     }
 
     .quoteSection .quoteColumn {
-        margin-right:35px ;
+        margin-right:0px ;
     }
     
     input {
-        width: 200px;
-        padding-left: 20px;
+        width: 250px;
+       
     }
     
     textarea {
-        width: 200px;
-        padding-left: 20px;
+        width: 250px;
+       
     }
     
     .workSection {
