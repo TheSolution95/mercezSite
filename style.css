@@ -495,11 +495,11 @@ input[type=submit], input[type=reset] {
     }
     
     input {
-        width: 200px;   
+        width: 100px;   
     }
     
     textarea {
-        width: 200px;  
+        width: 100px;  
     }
     
     .workSection {
