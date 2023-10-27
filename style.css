@@ -521,6 +521,10 @@ input[type=submit], input[type=reset] {
     .contactSection .addressColumn p{
         padding-right: 30px;
     }
+
+    .footer img {
+    display: none;
+   }
     
 }
 
