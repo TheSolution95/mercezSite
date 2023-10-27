@@ -396,7 +396,7 @@ input[type=submit], input[type=reset] {
    
 .footer li a {
     text-decoration: none;
-    font-size: 7px;
+    font-size: 10px;
     color: #657065;
    }
 
@@ -521,10 +521,6 @@ input[type=submit], input[type=reset] {
     .contactSection .addressColumn p{
         padding-right: 30px;
     }
-
-    .footer img {
-    display: none;
-   }
     
 }
 
