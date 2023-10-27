@@ -495,12 +495,12 @@ input[type=submit], input[type=reset] {
     }
     
     input {
-        width: 100px;
+        width: 200px;
         padding: 0px;
     }
     
     textarea {
-        width: 100px;
+        width: 200px;
         padding: 0px;
     }
     
