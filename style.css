@@ -496,12 +496,12 @@ input[type=submit], input[type=reset] {
     
     input {
         width: 200px;
-        padding: 0px;
+        padding-left: 20px;
     }
     
     textarea {
         width: 200px;
-        padding: 0px;
+        padding-left: 20px;
     }
     
     .workSection {
