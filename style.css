@@ -371,6 +371,7 @@ input[type=submit], input[type=reset] {
 .contactSection .addressColumn p {
     padding-top: 10px;
     font-size: 16px;
+    text-align: left;
 }
 
 /* Contact us End */
