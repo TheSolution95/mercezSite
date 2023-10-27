@@ -444,7 +444,8 @@ input[type=submit], input[type=reset] {
 /* Body */
 @media (max-width: 1000px) {
     .heroSection h1 {
-        padding-top: 10px;  
+        padding-top: 10px;
+        font-size: 38px;
     }
 
     .serviceSection {
