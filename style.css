@@ -496,11 +496,15 @@ input[type=submit], input[type=reset] {
     
     input {
         width: 250px;
+        margin: 0px;
+        padding:0px;
        
     }
     
     textarea {
         width: 250px;
+        margin: 0px;
+        padding:0px;
        
     }
     
