@@ -334,12 +334,13 @@ input[type=submit], input[type=reset] {
 .contactSection {
     padding-top: 80px;
     margin-top: 10px;
-    text-align: center;
+    
 }
 
 .contactSection h1 {
     font-size: 48px;
     color: #019C00;
+    text-align: center;
 }
 
 .contactSection .row {
@@ -371,7 +372,7 @@ input[type=submit], input[type=reset] {
 .contactSection .addressColumn p {
     padding-top: 10px;
     font-size: 16px;
-    text-align: left;
+   
 }
 
 /* Contact us End */
