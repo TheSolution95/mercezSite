@@ -310,8 +310,10 @@ input[type=submit], input[type=reset] {
     margin-top:75px;
 }
 .aboutSection h3 {
-    font-size: 24px;
-    color: #019C00;
+    font-size: 43px;
+    color: #81e781;
+    font-weight: lighter;
+    margin-top: 50px;
 }
 
 .aboutSection h5 {
@@ -321,8 +323,11 @@ input[type=submit], input[type=reset] {
 }
 
 .aboutSection p {
-    font-size: 15px;
+    font-size: 17px;
     margin: 0px 90px;
+    color: #546e54;
+
+    
 }
 
 
